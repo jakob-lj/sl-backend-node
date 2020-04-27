@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakob-lj/sl-backend-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakob-lj/sl-backend-node/issues"
+  },
+  "homepage": "https://github.com/jakob-lj/sl-backend-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
