@@ -17,4 +17,5 @@ app.get('/en', (req, res) => {
     console.log(inAYear)
     res.setHeader('Set-Cookie', `lang=en; HttpOnly; Path=/`)
       res.end()
+    })
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
